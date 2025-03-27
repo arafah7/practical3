@@ -9,7 +9,7 @@ int main(){
     Person* personArr = createPersonArray(n);
   // printing the names of the name and age 
     for(int i = 0;i<n;i++){
-        cout<<"person"<<i<<":" << personArr[i].name<< "age" <<personArr[i].age<<endl;
+        cout<<"person"<<i+1<<":" << personArr[i].name<< "age :" <<personArr[i].age<<endl;
     }
     delete[] personArr;
     return 0;
