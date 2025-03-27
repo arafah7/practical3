@@ -1,4 +1,6 @@
 #include "Person.h"
+#include "function-1-1.h" 
+#include<iostream>
 // function for creating the structs
 Person* createPersonArray(int n){
     // allocating memory for structs dynamically
