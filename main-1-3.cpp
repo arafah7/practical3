@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-PersonList deepCopyPersonList(PersonList pl); 
+extern PersonList deepCopyPersonList(PersonList p_one);
 
 int main() {
     // Create a PersonList
