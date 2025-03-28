@@ -1,7 +1,7 @@
 #include "Person.h"
 #include <iostream>
 using namespace std;
-
+PersonList createPersonList(int n);
 int main() {
     // testing with 9 people 
     int n = 9;  
