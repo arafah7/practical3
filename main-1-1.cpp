@@ -1,7 +1,7 @@
 #include "Person.h"
 #include <iostream>
 using namespace std;
-
+extern Person* createPersonArray(int n);
 int main() {
     int n = 8;  
     // execting the function 
