@@ -8,7 +8,7 @@ int main() {
     // Create a PersonList
     PersonList original_one;
     original_one.numPeople = 3;
-        original.people = new Person[3]{
+        original_one.people = new Person[3]{
         {"Alice", 25},
         {"Bob", 30},
         {"Charlie", 35}
@@ -18,11 +18,11 @@ int main() {
     PersonList copy = deepCopyPersonList(original);
 
     // the results 
-    cout << "Original: " << original.people[0].name << endl;
+    cout << "Original: " << original_one.people[0].name << endl;
     cout << "Copy: " << copy.people[0].name << endl;
 
     // deleting the dyanmic memory 
-    delete[] original.people;
+    delete[] original_one.people;
     delete[] copy.people;
 
     return 0;
