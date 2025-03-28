@@ -15,7 +15,7 @@ int main() {
     };
 
     // doing the deep copy
-    PersonList copy = deepCopyPersonList(original);
+    PersonList copy = deepCopyPersonList(original_one);
 
     // the results 
     cout << "Original: " << original_one.people[0].name << endl;
